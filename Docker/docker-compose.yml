@@ -26,9 +26,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root123
-      MYSQL_DATABASE: kpswacth_reg
-      MYSQL_USER: kpswacth_reg
-      MYSQL_PASSWORD: regP@ssw0rd
+      MYSQL_DATABASE: iot
+      MYSQL_USER: iot
+      MYSQL_PASSWORD: iotP@ssw0rd
     volumes:
       - db_data:/var/lib/mysql
     ports:
